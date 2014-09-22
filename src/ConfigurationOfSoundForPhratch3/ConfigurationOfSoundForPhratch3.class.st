@@ -142,7 +142,18 @@ ConfigurationOfSoundForPhratch3 >> baseline10: spec [
 	spec for: #common do: [
 			spec blessing: #baseline.
 			spec repository: 'http://smalltalkhub.com/mc/JLaval/Phratch/main'.
-			spec package: 'PhratchSound'.
+			
+			spec project: 'Sound' with: [
+				spec 
+					className: 'ConfigurationOfPharoSound';
+					file: 'ConfigurationOfPharoSound' ;
+					version: #stable;
+					repository: 'http://smalltalkhub.com/mc/PharoExtras/Sound/main'.
+			].
+		
+			spec package: 'PhratchSound' with: [ 
+					spec requires: #('Sound')
+			].
 	].
 ]
 
@@ -174,5 +185,7 @@ ConfigurationOfSoundForPhratch3 >> version10: spec [
 			spec repository: 'http://smalltalkhub.com/mc/JLaval/Phratch/main'.
 			spec
 				package: 'PhratchSound'.
+			spec
+				project: 'Sound' with: #stable.
 	]
 ]
