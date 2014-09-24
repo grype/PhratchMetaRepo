@@ -125,9 +125,9 @@ ConfigurationOfArduinoForPhratch >> baseline10: spec [
 		
 			spec project: 'OSProcess' with: [
 				spec 
-					className: 'ConfigurationOfOSProcess';
+					className: 'ConfigurationOfProcessWrapper';
 					version: #stable;
-					repository: 'http://www.squeaksource.com/MetacelloRepository'.
+					repository: 'http://www.smalltalkhub.com/mc/hernan/ProcessWrapper/main'.
 			].
 
 			spec package: 'CTranslator' with: [ 
