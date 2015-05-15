@@ -116,7 +116,7 @@ ConfigurationOfPoppy >> baseline10: spec [
 			
 	
 
-			spec package: 'PDR'.
+			spec package: 'PhratchPoppy'.
 	].
 ]
 
@@ -147,6 +147,6 @@ ConfigurationOfPoppy >> version10: spec [
 	spec for: #common do: [
 			spec repository: 'http://smalltalkhub.com/mc/poppy/PoppyPhratch/main'.
 			spec
-				package: 'PDR'.
+				package: 'PhratchPoppy'.
 	]
 ]
