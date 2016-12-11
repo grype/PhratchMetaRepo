@@ -180,7 +180,7 @@ ConfigurationOfArduinoForPhratch >> version10: spec [
 				package: 'Arduino-Compiler';
 				package: 'PhratchArduino'.
 			spec
-				project: 'FFI' with: #stable;
+				project: 'FFI' with: '1.4-baseline';
 				project: 'OSProcess' with: #stable.
 	]
 ]
