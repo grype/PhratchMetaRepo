@@ -14,7 +14,7 @@ BaselineOfMinecraftPiForPhratch >> baseline: spec [
 			spec
 				package: 'Minecraft-Pi-Demo'
 				with: [ spec requires: #('Minecraft-Pi-Base') ].
-			spec repository: 'github://grype/phratch:import'.
+			spec repository: 'github://janniklaval/phratch'.
 			spec
 				package: 'MinecraftPhratch'
 				with: [ spec requires: #('Minecraft-Pi-Base') ] ]

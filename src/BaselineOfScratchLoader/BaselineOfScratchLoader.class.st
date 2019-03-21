@@ -9,6 +9,6 @@ BaselineOfScratchLoader >> baseline: spec [
 	<baseline>
 	spec
 		for: #common
-		do: [ spec repository: 'github://grype/phratch:import'.
+		do: [ spec repository: 'github://janniklaval/phratch'.
 			spec package: 'PhratchObjStream' ]
 ]
